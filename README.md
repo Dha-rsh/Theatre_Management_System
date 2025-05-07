@@ -1,0 +1,45 @@
+Title: Book My Ticket
+--------------------
+Target Audience: Theatre Managers, Booking Agents
+
+End users:  Public peoples, Students, Families, Movie Buffs, Theatre Enthusiasts, Event Organizers
+
+Type: B2C(Business to Customer)
+
+Timeline: 1 month
+
+Budget: 1lakh
+
+Total Members: 6
+
+Features: 
+---------
+    • Search for Movies/Events - Users can search for movies and events based on genres, dates, and locations.
+    
+    • Seat Availability and Layout - seat availability with a graphical layout to select seats.
+    
+    • Show Scheduling - Admin can manage movie schedules, showtimes, and screen availability.
+    
+    • Ticket Booking -Online booking with seat selection, updates offline selection to ensure no double-booking.
+    
+    • Payment -Secure online payments.
+    
+    • Ticket Cancellation/Refund Option - Users can cancel tickets and request refunds.
+    
+    • User Reviews and Ratings for Movies/Events -Users can rate and review movies.
+    
+    • Admin Panel -Admin can manage schedules, sales data, customer information, and generate reports.
+    
+    • Movie Information -Movie details page displaying cast, ratings, showtimes, etc.
+    
+    • Email/SMS Notifications - Users receive confirmations, reminders,  messages related to bookings.
+
+Future Features:
+---------------
+    • Reward Points - Earn points on every booking,redeem for discounts, free tickets, or snacks
+    
+    • Voice & Chatbot Support - Book or cancel tickets via voice commands or AI chat assistant
+    
+    • Waitlist & Auto Booking - Add users to a waitlist for sold-out shows and auto-book when seats open
+    
+    • Dynamic Pricing: Price variations based on demand, time, and seat location.
