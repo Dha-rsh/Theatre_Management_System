@@ -48,29 +48,29 @@ Future Features:
 1. Class User
 
 {
-    - userID: int
-    - userName: String
-    - email: String
-    - password: String
-    - phoneNumber: String
-    - role: String  // "admin", "customer"
+- userID: int
+- userName: String
+- email: String
+- password: String
+- phoneNumber: String
+- role: String  // "admin", "customer"
     
 }
   
 2. Class MovieEvent
    
 {
-    - eventID: int
-    - title: String
-    - type: String  // "Movie" or "Event"
-    - genre: String
-    - language: String
-    - description: String
-    - cast: List<String>
-    - duration: String
-    - releaseDate: Date
-    - rating: float
-    - posterURL: String
+- eventID: int
+- title: String
+- type: String  // "Movie" or "Event"
+- genre: String
+- language: String
+- description: String
+- cast: List<String>
+- duration: String
+- releaseDate: Date
+- rating: float
+- posterURL: String
     
   } 
   
@@ -85,7 +85,7 @@ Future Features:
 - totalSeats: int
 - availableSeats: int
     
-  } 
+} 
   
 4. Class Screen
    
