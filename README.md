@@ -46,6 +46,7 @@ Future Features:
 
 
 1. Class User
+
 {
     - userID: int
     - userName: String
@@ -53,9 +54,11 @@ Future Features:
     - password: String
     - phoneNumber: String
     - role: String  // "admin", "customer"
+    
 }
   
 2. Class MovieEvent
+   
 {
     - eventID: int
     - title: String
@@ -68,8 +71,11 @@ Future Features:
     - releaseDate: Date
     - rating: float
     - posterURL: String
+    
   } 
+  
 3. Class Schedule
+   
 {
     - scheduleID: int
     - eventID: int
@@ -78,31 +84,43 @@ Future Features:
     - showTime: String
     - totalSeats: int
     - availableSeats: int
+    
   } 
+  
 4. Class Screen
+   
 {
     - screenID: int
     - name: String
     - theaterID: int
     - totalSeats: int
     - layout: String  // JSON or XML for graphical layout mapping
+    
   } 
+  
 5. Class Theater
+
 {
     - theaterID: int
     - name: String
     - location: String
     - contactInfo: String
+    
   } 
+  
 6. Class Seat
+
 {
     - seatID: int
     - screenID: int
     - row: String
     - number: int
     - seatType: String  // e.g., "Regular", "VIP"
+    
   } 
+  
 7. Class Booking
+   
 {
     - bookingID: int
     - userID: int
@@ -112,28 +130,34 @@ Future Features:
     - status: String  // "Confirmed", "Cancelled", "Refunded"
     - totalAmount: float
     - paymentID: int
+    
   }
 
 8. Class Payment
-    {
+
+   {
     - paymentID: int
     - bookingID: int
     - amount: float
     - paymentMethod: String  // "Credit Card", "UPI", etc.
     - paymentStatus: String  // "Success", "Failed", "Refunded"
     - paymentDate: DateTime
+      
     }
 
 9. Class Cancellation
+    
 {
     - cancellationID: int
     - bookingID: int
     - cancelledOn: DateTime
     - refundAmount: float
     - refundStatus: String  // "Pending", "Completed"
+    
   }
 
 10. Class Review
+    
 {
     - reviewID: int
     - userID: int
@@ -141,9 +165,11 @@ Future Features:
     - rating: int  // 1 to 5
     - comment: String
     - reviewDate: Date
+    
 }
 
 11. Class AdminPanel
+    
 {
     - totalUsers: int
     - totalBookings: int
@@ -151,9 +177,11 @@ Future Features:
     - activeSchedules: List<Schedule>
     - customerQueries: List<String>
     - reportsGenerated: List<String>
+    
 }
 
 12. Class Notification
+
 {
     - notificationID: int
     - userID: int
@@ -161,13 +189,16 @@ Future Features:
     - type: String  // "Confirmation", "Reminder", "Refund"
     - sentVia: String  // "Email", "SMS"
     - sentOn: DateTime
+    
 }
 
 13. Class SearchFilter
+    
 {
     - keyword: String
     - genre: String
     - date: Date
     - location: String
     - type: String  // "Movie" or "Event"
+    
 }
