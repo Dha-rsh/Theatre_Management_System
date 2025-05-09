@@ -115,14 +115,14 @@ Future Features:
   }
 
 8. Class Payment
- {
+    {
     - paymentID: int
     - bookingID: int
     - amount: float
     - paymentMethod: String  // "Credit Card", "UPI", etc.
     - paymentStatus: String  // "Success", "Failed", "Refunded"
     - paymentDate: DateTime
- }
+    }
 
 9. Class Cancellation
 {
