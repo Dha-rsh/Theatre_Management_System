@@ -77,13 +77,13 @@ Future Features:
 3. Class Schedule
    
 {
-    - scheduleID: int
-    - eventID: int
-    - screenID: int
-    - date: Date
-    - showTime: String
-    - totalSeats: int
-    - availableSeats: int
+- scheduleID: int
+- eventID: int
+- screenID: int
+- date: Date
+- showTime: String
+- totalSeats: int
+- availableSeats: int
     
   } 
   
