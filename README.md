@@ -70,7 +70,6 @@ Future Features:
 - duration: String
 - releaseDate: Date
 - rating: float
-- posterURL: String
     
   } 
   
@@ -94,7 +93,6 @@ Future Features:
     - name: String
     - theaterID: int
     - totalSeats: int
-    - layout: String  // JSON or XML for graphical layout mapping
     
   } 
   
@@ -114,9 +112,7 @@ Future Features:
     - seatID: int
     - screenID: int
     - row: String
-    - number: int
-    - seatType: String  // e.g., "Regular", "VIP"
-    
+    - number: int    
   } 
   
 7. Class Booking
@@ -164,7 +160,6 @@ Future Features:
     - eventID: int
     - rating: int  // 1 to 5
     - comment: String
-    - reviewDate: Date
     
 }
 
@@ -174,21 +169,19 @@ Future Features:
     - totalUsers: int
     - totalBookings: int
     - revenue: float
-    - activeSchedules: List<Schedule>
-    - customerQueries: List<String>
-    - reportsGenerated: List<String>
+   // activeSchedules: List<Schedule>
+   // customerQueries: List<String>
+    // reportsGenerated: List<String>
     
 }
 
 12. Class Notification
 
 {
-    - notificationID: int
+    - notifyID: int
     - userID: int
     - message: String
     - type: String  // "Confirmation", "Reminder", "Refund"
-    - sentVia: String  // "Email", "SMS"
-    - sentOn: DateTime
     
 }
 
